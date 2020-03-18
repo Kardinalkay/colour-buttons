@@ -1,0 +1,66 @@
+
+	body {
+		font-family: 'Titillium Web', Georgia, sans-serif;
+		padding: 2em;
+	}
+
+	article h1, article h2, article h3, section p {
+		color : darkslategray;
+	}
+
+	.toggle-bg-color {
+		position: fixed;
+		display: flex;
+		padding: 15px 20px;
+		top: 0;
+		right: 0;
+		z-index: 2;
+		background-color: hsla(25,100%,97%, .5);
+	}
+
+	button {
+		border: 1px solid gold;
+		font-family: inherit;
+		font-size: inherit;
+		color: #222;
+		padding: 15px 40px 15px 60px;
+		background: none;
+		cursor: pointer;
+		display: inline-block;
+		margin: 0 30px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-weight: 700;
+		outline: none;
+		position: relative;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.toggle-bg-color button {
+		position: relative;
+		border: 1px outset snow;
+	}
+
+	.toggle-bg-color button span {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		width: 30%;
+		height: inherit;
+		border: 2px solid white;
+	}
+
+	.toggle-bg-color .red-btn span {
+		background: rgba(246, 34, 23, .5);
+	}
+
+	.toggle-bg-color .blue-btn span {
+		background: rgba(80, 235, 236, .5);
+	}
+
+	.toggle-bg-color .green-btn span {
+		background: rgba(52, 124, 44, .5);
+	}
