@@ -51,18 +51,18 @@
 		bottom: 0;
 		width: 30%;
 		height: inherit;
-		border: 2px solid white;
+		border: 1px solid white;
 	}
 
-	.toggle-bg-color .red-btn span {
+	#red-btn{
 		background: rgba(246, 34, 23, .5);
 	}
 
-	.toggle-bg-color .blue-btn span {
+	#blue-btn {
 		background: rgba(80, 235, 236, .5);
 	}
 
-	.toggle-bg-color .green-btn span {
+	#green-btn {
 		background: rgba(52, 124, 44, .5);
 	}
 
