@@ -2,6 +2,7 @@
 	body {
 		font-family: 'Titillium Web', Georgia, sans-serif;
 		padding: 2em;
+		transition: background 1s;
 	}
 
 	article h1, article h2, article h3, section p {
@@ -63,4 +64,16 @@
 
 	.toggle-bg-color .green-btn span {
 		background: rgba(52, 124, 44, .5);
+	}
+
+	#page.red {
+		background: rgba(246, 34, 23, .5);
+	}
+
+	#page.green {
+		background: rgba(52, 124, 44, .5);
+	}
+
+	#page.blue {
+		background: rgba(80, 235, 236, .5)
 	}
