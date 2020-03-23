@@ -1,7 +1,7 @@
 	
 	// Background toggle feature
 
-	let colours = ['rgba(246, 34, 23, .5)', 'rgba(80, 235, 236, .5)', 'rgba(52, 124, 44, .5)'];
+	let colours = ['rgba(246, 34, 23, .5)', 'rgba(52, 124, 44, .5)', 'rgba(80, 235, 236, .5)'];
 
 	let el = document.querySelectorAll('.toggle-bg-color button');
 
